@@ -1,4 +1,28 @@
 <!--index.wxml-->
 <view class="container">
-  
+  <view class="header">
+    <view class="logo">
+      <image src="../../static/img/logo.png"></image>
+    </view>
+    <view class="search">
+      <input type="text" placeholder="搜索商品名称"></input>
+    </view>
+  </view>
+  <view class="banner">
+    <swiper indicator-dots="true" autoplay="true" interval="2000" duration="500">
+      <swiper-item>
+        <image src="../../static/img/banner1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../static/img/banner2.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <view class="tabs">
+    <block wx:for="{{10}}" wx:key="*this">
+      <view class="tab-item">
+        <image src="../../static/img/tab{{index+1}}.webp"></image>
+      </view>
+    </block>
+  </view>
 </view>
