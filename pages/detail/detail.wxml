@@ -1,0 +1,15 @@
+<view>
+  <view class="banner">
+    <swiper>
+      <block wx:for="{{4}}">
+        <swiper-item>
+          <view class="bannerItem">
+            <image src="../../static/img/detail{{index+1}}.jpg"></image>
+          </view>
+        </swiper-item>
+      </block>
+
+    </swiper>
+  </view>
+
+</view>

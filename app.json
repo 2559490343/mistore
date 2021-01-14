@@ -1,13 +1,41 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/mine/mine",
+    "pages/detail/detail",
+    "pages/car/car"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#f2f2f2",
     "navigationBarTitleText": "小米商城",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#ff6700",
+    "borderStyle": "white",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./static/img/icon3.png",
+        "selectedIconPath": "./static/img/icon1.png"
+      },
+      {
+        "pagePath": "pages/car/car",
+        "text": "购物车",
+        "iconPath": "./static/img/icon5.png",
+        "selectedIconPath": "./static/img/icon6.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./static/img/icon2.png",
+        "selectedIconPath": "./static/img/icon4.png"
+      }
+    ]
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json"

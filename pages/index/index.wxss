@@ -14,7 +14,7 @@
   height: 45px;
   display: flex;
   align-items: center;
-  padding-right: 20px;
+  padding-right: 10px;
   box-sizing: border-box;
   box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2);
 }
@@ -56,13 +56,127 @@
   display: flex;
   flex-wrap: wrap;
   box-sizing: border-box;
+  margin-bottom: 10px;
 }
 
 .tabs .tab-item {
   width: 20%;
   height: 50%;
 }
+
 .tab-item image {
   width: 100%;
   height: 100%;
+}
+
+.bigTabs {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 265px;
+  margin-bottom: 5px;
+}
+
+.bigTabs image {
+  width: 100%;
+  height: 100%;
+}
+
+.bigTabs .leftTab {
+  width: 50%;
+  height: calc(100% + 2px);
+  margin-right: 2px;
+}
+
+.bigTabs .rightTab {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightTab .topTab {
+  height: 50%;
+  margin-bottom: 2px;
+}
+
+.rightTab .bottomTab {
+  height: 50%;
+}
+
+.bigBanner {
+  width: 100%;
+  height: 145px;
+  margin-bottom: 5px;
+}
+
+.bigBanner image {
+  width: 100%;
+  height: 100%;
+}
+
+.bigBanner1 {
+  width: 100%;
+  height: 230px;
+  margin-bottom: 5px;
+}
+
+.bigBanner1 image {
+  width: 100%;
+  height: 100%;
+}
+
+.goods {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 510px;
+}
+
+.goodItem {
+  width: 49%;
+}
+
+.goodItem .img image {
+  height: 145px;
+  width: 180px;
+}
+
+.goodInfo {
+  background-color: #fff;
+  padding: 8px 10px 15px 10px;
+  text-align: center;
+}
+
+.goodName {
+  font-size: 17px;
+}
+
+.goodText {
+  font-size: 12px;
+  color: rgba(0, 0, 0, .54);
+}
+
+.goodPrice {
+  font-size: 15px;
+  color: #ea625b;
+}
+
+.goodBtn {
+  width: 105px;
+  height: 30px;
+  line-height: 30px;
+  background: #ea625b;
+  color: #fff;
+  margin: 0 auto;
+  border-radius: 3px;
+}
+
+.footer {
+  width: 100%;
+  color: rgba(0, 0, 0, .6);
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  font-size: 15px;
 }

@@ -1,0 +1,14 @@
+/* pages/detail.wxss */
+.banner swiper {
+  width: 100%;
+  height: 415px;
+}
+.banner .bannerItem{
+  width: 100%;
+  height: 100%;
+}
+
+.banner image {
+  /* width: 100%; */
+  height: 100%;
+}
