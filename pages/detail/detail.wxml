@@ -1,0 +1,57 @@
+<view>
+  <view class="banner">
+    <view class="backBtn" bindtap="goBack">
+      <image src="../../static/img/left-arrow.png"></image>
+    </view>
+    <swiper bindchange="bannerChange" circular="{{true}}">
+      <block wx:for="{{4}}" wx:key="*this">
+        <swiper-item>
+          <view class="bannerItem">
+            <image src="../../static/img/detail{{index+1}}.jpg"></image>
+          </view>
+        </swiper-item>
+      </block>
+
+    </swiper>
+    <view class="showIndex">
+      {{current}} / 4
+    </view>
+  </view>
+  <view class="info">
+    <view class="price">
+      <view class="nowPrice">
+        ￥1299
+      </view>
+      <view class="lastPrice">
+        ￥1699
+      </view>
+    </view>
+    <view class="name">
+      Redmi K30
+    </view>
+    <view class="content">
+      <view class="contentTop">
+        「6GB+128GB到手价仅1299元；+1元得200G云空间月卡；购机抽奖赢70英寸电视」</view>
+      <view class="contentInner">
+        <view class="innerItem">
+          1. 【极限响应】120Hz流速屏，超快流畅刷新，开启阅读游戏新体验
+        </view>
+        <view class="innerItem">
+          2. 【旗舰工艺】旗舰AG工艺机身+双面康宁GG5保护玻璃
+        </view>
+        <view class="innerItem">
+          3. 【便捷科技】多功能NFC手机就是公交卡，手机就是遥控器
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="footer">
+    <view class="car" bindtap="toCar">
+      <image src="../../static/img/icon5.png"></image>
+      <text>购物车</text>
+    </view>
+    <view class="joinBtn" bindtap="addCar">
+      加入购物车
+    </view>
+  </view>
+</view>

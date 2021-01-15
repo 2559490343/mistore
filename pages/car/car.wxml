@@ -1,0 +1,70 @@
+<view class="noLogin" wx:if="{{false}}">
+  <view class="toLogin" bindtap="handleLogin">
+    <view>
+      登录后享受更多优惠
+    </view>
+    <view>
+      去登录
+    </view>
+  </view>
+  <view class="toIndex">
+    <view class="carLogo">
+      <image src="../../static/img/car.png"></image>
+    </view>
+    <view class="text">
+      购物车还是空的
+    </view>
+    <view class="toIndexBtn" bindtap="toIndex">
+      去逛逛
+    </view>
+  </view>
+</view>
+
+<view wx:else>
+  <view class="carList">
+    <view class="car-item">
+      <view class="check">
+        <image src="{{checkImg}}"></image>
+      </view>
+      <view class="goodinfo">
+        <view class="goodImg">
+          <image src="../../static/img/phone1.jpg"></image>
+        </view>
+        <view class="goodInner">
+          <view class="goodName">
+            Redmi Note 8 6GB+128GB 梦幻蓝 128GB
+          </view>
+          <view class="goodPrice">
+            售价：1299元
+          </view>
+          <view class="goodCount">
+            <view class="down" bindtap="downCount">-</view>
+            <view class="count">{{count}}</view>
+            <view class="up" bindtap="upCount">+</view>
+          </view>
+        </view>
+      </view>
+      <view class="deleteBtn">
+        <image src="../../static/img/delete.png"></image>
+      </view>
+    </view>
+  </view>
+
+  <view class="bottom">
+    <view class="summary">
+      <view class="totalCount">
+        共{{1}}件 金额：
+      </view>
+      <view class="totalPrice">
+        <text>{{2599}}</text>
+        <text style="font-size:14px;color:#999;">元</text>
+      </view>
+    </view>
+    <view class="toIndex" bindtap="toIndex">
+      继续购物
+    </view>
+    <view class="toBuy" bindtap="buy">
+      确定购买
+    </view>
+  </view>
+</view>

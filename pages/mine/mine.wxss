@@ -1,0 +1,86 @@
+/* pages/mine/mine.wxss */
+.login {
+  width: 100%;
+  height: 85px;
+  background: url(https://m.mi.com/static/img/bg.63c8e19851.png) center 0 #f37d0f;
+  display: flex;
+  align-items: center;
+  padding: 0 20px
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  margin-right: 8px;
+}
+
+.avatar image {
+  width: 100%;
+  height: 100%;
+}
+
+.loginText {
+  font-size: 13px;
+  color: #fff;
+}
+
+.myCar {
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  background-color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.right-arr {
+  position: relative;
+}
+
+.right-arr::after {
+  content: "";
+  position: absolute;
+  right: .32rem;
+  top: 50%;
+  width: 10px;
+  height: 10px;
+  border-left: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+  transform: translate3d(0, -50%, 0) rotate(135deg);
+}
+
+.otherModule {
+  padding: 0px 20px;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.module {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.module:nth-child(2n+1) {
+  border-bottom: 1px solid #ccc;
+}
+.module:last-child{
+  border: none;
+}
+
+.m-right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.module image {
+  width: 30px;
+  height: 30px;
+  margin-right: 15px;
+}

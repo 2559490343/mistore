@@ -1,0 +1,192 @@
+/* pages/car/car.wxss */
+
+
+.carList {}
+
+.carList .car-item {
+  width: 100%;
+  height: 120px;
+  box-sizing: border-box;
+  padding: 10px 3px;
+  display: flex;
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.check {
+  width: 25px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  margin-right: 5px;
+}
+
+.check image {
+  width: 25px;
+  height: 25px;
+}
+
+.goodinfo {
+  display: flex;
+  align-items: center;
+}
+
+.goodImg {
+  width: 90px;
+  height: 90px;
+  margin-right: 10px;
+}
+
+.goodImg image {
+  width: 90px;
+  height: 90px;
+}
+
+.goodName {
+  max-width: 187px;
+  font-size: 14px;
+  color: #666;
+  line-height: 15px;
+}
+
+.goodPrice {
+  font-size: 12px;
+  color: #999;
+  margin: 3px 0;
+}
+
+.goodCount {
+  display: flex;
+  align-items: center;
+  width: 99px;
+  height: 33px;
+  border: 1px solid #ddd;
+}
+
+.goodCount view {
+  height: 100%;
+  flex: 1;
+  line-height: 33px;
+  text-align: center;
+}
+
+.up,
+.down {
+  background-color: #f4f4f4;
+  font-size: 22px;
+}
+
+.deleteBtn {
+  width: 31px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 25px;
+}
+
+.deleteBtn image {
+  width: 31px;
+  height: 31px;
+}
+
+.bottom {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+}
+
+.summary {
+  flex: 1;
+  background-color: #fff;
+  padding-top: 8px;
+  box-sizing: border-box;
+}
+
+.totalCount {
+  font-size: 14px;
+  color: #999;
+}
+
+.totalPrice {
+  color: #ff5722;
+  font-size: 21px;
+  margin-right: 3px;
+}
+
+.toIndex {
+  flex: 1;
+  line-height: 60px;
+  text-align: center;
+}
+
+.toBuy {
+  flex: 1;
+  line-height: 60px;
+  text-align: center;
+  background-color: #ff6700;
+  color: #fff;
+}
+
+
+.toLogin {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px 25px 20px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.toLogin view:last-child {
+  color: #aaa;
+  font-size: 13px;
+  position: relative;
+}
+
+.toLogin view:last-child::after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  width: 7px;
+  height: 7px;
+  border-left: 1px solid currentColor;
+  border-top: 1px solid currentColor;
+  transform: translate3d(0, -50%, 0) rotate(135deg);
+}
+
+.toIndex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carLogo {
+  width: 50px;
+  height: 50px;
+}
+
+.carLogo image {
+  width: 50px;
+  height: 50px;
+}
+
+.toIndex .text {
+  font-size: 13px;
+  color: rgba(0, 0, 0, .27);
+  margin: 0 10px;
+}
+
+.toIndexBtn {
+  border: 1px solid rgba(0, 0, 0, .15);
+  box-sizing: border-box;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 13px;
+  color: rgba(0, 0, 0, .87);
+  font-size: 13px;
+}

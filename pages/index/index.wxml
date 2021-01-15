@@ -25,4 +25,51 @@
       </view>
     </block>
   </view>
+  <view class="bigTabs">
+    <view class="leftTab">
+      <image src="../../static/img/box1.webp"></image>
+    </view>
+    <view class="rightTab">
+      <view class="topTab">
+        <image src="../../static/img/box2.webp"></image>
+      </view>
+      <view class="bottomTab">
+        <image src="../../static/img/box3.webp"></image>
+      </view>
+    </view>
+  </view>
+  <view class="bigBanner">
+    <image src="../../static/img/banner3.webp"></image>
+  </view>
+  <view class="bigBanner1">
+    <image src="../../static/img/banner4.webp"></image>
+  </view>
+  <view class="goods">
+    <block wx:for="{{goodList}}" wx:key="img">
+      <view class="goodItem" bindtap="toDetail" data-index="{{index+1}}">
+        <view class="img">
+          <image src="{{item.img}}"></image>
+        </view>
+        <view class="goodInfo">
+          <view class="goodName">
+            {{item.name}}
+          </view>
+          <view class="goodText">
+            {{item.text}}
+          </view>
+          <view class="goodPrice">
+            {{item.price}}
+          </view>
+          <view class="goodBuy">
+            <view class="goodBtn">
+              立即购买
+            </view>
+          </view>
+        </view>
+      </view>
+    </block>
+    <view class="footer">
+      更多小米手机产品 >
+    </view>
+  </view>
 </view>

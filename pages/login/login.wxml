@@ -1,0 +1,9 @@
+<view class="logo">
+  <image src="../../static/img/login-logo.png"></image>
+</view>
+<view class="loginForm">
+  <input type="text" placeholder="用户名"></input>
+  <input type="text" placeholder="密码"></input>
+  <view class="loginBtn" bindtap="handleLogin">立即登录</view>
+  <view class="register" bindtap="toRegister">没有账号？去注册</view>
+</view>

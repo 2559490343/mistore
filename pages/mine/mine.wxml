@@ -1,0 +1,70 @@
+<!--pages/mine/mine.wxml-->
+<view class="login">
+  <view class="avatar">
+    <image src="https://m.mi.com/static/img/avatar.76a75b8f17.png"></image>
+  </view>
+  <view class="loginText">
+    登录/注册
+  </view>
+</view>
+<view class="myCar">
+  <text>我的购物车</text>
+  <text class="right-arr"></text>
+</view>
+<view class="otherModule">
+  <view class="module">
+    <image src="../../static/img/module1.png"></image>
+    <view class='m-right'>
+      <text>会员中心</text>
+      <text class="right-arr"></text>
+    </view>
+  </view>
+  <view class="module">
+    <image src="../../static/img/module2.png"></image>
+    <view class="m-right">
+      <text>我的优惠</text>
+      <text class="right-arr"></text>
+    </view>
+  </view>
+</view>
+<view class="otherModule">
+  <view class="module">
+    <image src="../../static/img/module3.png"></image>
+    <view class='m-right'>
+      <text>服务中心</text>
+      <text class="right-arr"></text>
+    </view>
+  </view>
+  <view class="module">
+    <image src="../../static/img/module4.png"></image>
+    <view class="m-right">
+      <text>小米之家</text>
+      <text class="right-arr"></text>
+    </view>
+  </view>
+</view>
+<view class="otherModule">
+  <view class="module">
+    <image src="../../static/img/module5.png"></image>
+    <view class='m-right'>
+      <text>我的F码</text>
+      <text class="right-arr"></text>
+    </view>
+  </view>
+  <view class="module">
+    <image src="../../static/img/module6.png"></image>
+    <view class="m-right">
+      <text>礼品码兑换</text>
+      <text class="right-arr"></text>
+    </view>
+  </view>
+</view>
+<view class="otherModule">
+  <view class="module">
+    <image src="../../static/img/module7.png"></image>
+    <view class='m-right'>
+      <text>设置</text>
+      <text class="right-arr"></text>
+    </view>
+  </view>
+</view>
