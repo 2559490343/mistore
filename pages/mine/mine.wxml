@@ -1,5 +1,5 @@
 <!--pages/mine/mine.wxml-->
-<view class="login">
+<view class="login" bindtap="toLogin">
   <view class="avatar">
     <image src="https://m.mi.com/static/img/avatar.76a75b8f17.png"></image>
   </view>
@@ -7,7 +7,7 @@
     登录/注册
   </view>
 </view>
-<view class="myCar">
+<view class="myCar" bindtap="toCar">
   <text>我的购物车</text>
   <text class="right-arr"></text>
 </view>
